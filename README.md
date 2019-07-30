@@ -13,11 +13,3 @@ This project is basically a mini version of a complete Shopping Application that
 
 - Technologies Used:
 Spring Boot, REST Api, JPA, Hibernate ORM, AngularJS 
-
-# Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-
-## Prerequisites
-1. Install Java 8 or higher
-2. Install Spring Tool Suite
-3. Set up MySQL so that you have a local DBMS to work with
