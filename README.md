@@ -1,4 +1,4 @@
-# Java EE- Shopping Application
+# Java EE Shopping Application with Spring Boot
 This project is basically a mini version of a complete Shopping Application that has a few features like:
 - View deals of the day
 - View products of a particular category
