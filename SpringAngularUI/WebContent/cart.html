@@ -1,0 +1,49 @@
+<head>
+<style>
+#top-hr{
+	display: block;
+	border-top: 2px solid #F0690D;
+}
+.sub-wrapper{
+	overflow-x : hidden;
+}
+</style>
+</head>
+<body>
+<div class="sub-wrapper">
+<h2>Your cart has been modified!</h2>
+<hr id="top-hr">
+<h3>Your Cart --></h3>
+<div class="row">
+                    
+                    <!-- for loop in angular -->
+                    
+                    <div class="col-lg-3 col-sm-6" ng-repeat="pc in cartItems">
+                        <div class="card">
+                            <div class="content">
+                                <div class="row">
+                                    <div class="col-xs-5">
+                                        <div class="icon-big icon-warning text-center">
+                                            <i class="ti-control-forward"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-7">
+                                        <div class="numbers">
+                                            <p>{{pc.product.name }}</p> 
+                                            <p id="price">${{pc.product.price}}</p>                                                                         
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="footer">
+                                	<a ui-sref="/deletefromcart({pid: {{pc.product.id}}})">Delete</a>
+                                    <hr />                                 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                 </div>
+                 <h3>Total Amount:</h3>
+                 
+                 
+</body>

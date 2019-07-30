@@ -1,0 +1,47 @@
+<style>
+#top-hr{
+	display: block;
+	border-top: 2px solid #F0690D;
+}
+#sub-wrapper{
+	overflow-x : hidden;
+}
+.old-price {
+	text-decoration: line-through;
+}
+div.numberss{
+	font-size : 10px;
+	text-align : right;
+}
+</style>
+
+<div id="sub-wrapper">
+<h2>This product is sold by-</h2>
+<hr id="top-hr">
+<div class="row">
+                    
+                    <!-- for loop in angular -->
+                    
+                    <div class="col-lg-3 col-sm-6" ng-repeat="v in vendor">
+                        <div class="card">
+                            <div class="content">
+                                <div class="row">
+                                    <div class="col-xs-5">
+                                        <div class="icon-big icon-warning text-center">
+                                            <i class="ti-control-forward"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-7">
+                                        <div class="numbers">
+                                            <p>{{v.name}}</p>                                          
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="footer">
+                                    <hr />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+</div>

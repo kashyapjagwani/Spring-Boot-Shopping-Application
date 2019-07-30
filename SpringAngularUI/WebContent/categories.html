@@ -1,0 +1,45 @@
+<style>
+#top-hr{
+	display: block;
+	border-top: 2px solid #F0690D;
+}
+.sub-wrapper{
+	overflow-x : hidden;
+}
+</style>
+<body>
+<div class="sub-wrapper">
+<h2>All Categories!</h2>
+<hr id="top-hr">
+<div class="row">
+                    
+                    <!-- for loop in angular -->
+                    
+                    <div class="col-lg-3 col-sm-6" ng-repeat="c in categories">
+                        <div class="card">
+                            <div class="content">
+                                <div class="row">
+                                    <div class="col-xs-5">
+                                        <div class="icon-big icon-warning text-center">
+                                            <i class="ti-control-forward"></i>
+                                        </div>
+                                    </div>
+                                    <div class="col-xs-7">
+                                        <div class="numbers">
+                                            <p>{{c.name }}</p>
+                                            {{c.count}}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="footer">
+                                    <hr />
+                                    <div class="stats">
+                                        <a ui-sref="/all/product({cid: {{c.id}}})" > Show Products</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                 </div>
+</body>
