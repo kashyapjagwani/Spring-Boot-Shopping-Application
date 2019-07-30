@@ -1,4 +1,4 @@
-# Shopping Application
+# Java EE- Shopping Application
 This project is basically a mini version of a complete Shopping Application that has a few features like:
 - View deals of the day
 - View products of a particular category
@@ -17,4 +17,7 @@ Spring Boot, REST Api, JPA, Hibernate ORM, AngularJS
 # Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-## Pre
+## Prerequisites
+1. Install Java 8 or higher
+2. Install Spring Tool Suite
+3. Set up MySQL so that you have a local DBMS to work with
